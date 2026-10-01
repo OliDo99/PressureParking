@@ -8,8 +8,7 @@ Optional: python ndw_public_events.py "Amsterdam"
 """
 
 import gzip
-import sys
-import urllib.request
+import sys6
 import xml.etree.ElementTree as ET
 
 FEED_URL = "https://opendata.ndw.nu/planningsfeed_wegwerkzaamheden_en_evenementen.xml.gz"
